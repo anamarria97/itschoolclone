@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Adaugam metatag-urile pentru Google -->
+    <title>Clonă IT School</title>
+    <meta name="description" content="O replică a site-ului itschool.ro" />
+    <!-- Includem font-urile prima oara -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Pentru iconite -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+      rel="stylesheet"
+    />
+    <!-- Includem CSS-urile noastre -->
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/courses.css" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="container">
+        <a href="../index.html" class="logo-link">
+          <img src="../img/itschool-logo.png" alt="itschool logo" />
+        </a>
+        <div class="menu-icon-container">
+          <!-- Iconita de meniu + checkbox-ul sunt pentru mobile. -->
+          <span class="material-symbols-outlined menu-icon"> menu </span>
+          <input type="checkbox" />
+          <ul>
+            <li>
+              <a href="courses.html"> Cursuri Online </a>
+            </li>
+            <li class="about-us">
+              <a href="about.html">
+                Despre Noi
+                <!-- Iconita luata de pe Material Icons. -->
+                <span class="material-symbols-outlined arrow-down-icon">
+                  arrow_drop_down
+                </span>
+              </a>
+              <!-- Submeniul afisat la hover pe "Despre noi" -->
+              <div class="submenu">
+                <a href="../index.html">IT School</a>
+                <a href="about.html">Despre Noi</a>
+              </div>
+            </li>
+            <li>
+              <a href="contact.html"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<section class="welcome-section">
+  <div class="container">
+  <div class="welcome">
+    <h1>Cursuri care te pregătesc pentru o carieră reală în IT</h1>
+    <h2>De la începuturi simple la reușite extraordinare</h2>
+  </div>
+  </div>
+</section>
+
+
+
+  <section class="courses-section">
+    <h2>Cursurile IT School</h2>
+    <div class="courses-grid">
+
+      <div class="course-card">
+        <h3>Web Development</h3>
+        <div class="icon-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M392.8 65.2C375.8 60.3 358.1 70.2 353.2 87.2L225.2 535.2C220.3 552.2 230.2 569.9 247.2 574.8C264.2 579.7 281.9 569.8 286.8 552.8L414.8 104.8C419.7 87.8 409.8 70.1 392.8 65.2zM457.4 201.3C444.9 213.8 444.9 234.1 457.4 246.6L530.8 320L457.4 393.4C444.9 405.9 444.9 426.2 457.4 438.7C469.9 451.2 490.2 451.2 502.7 438.7L598.7 342.7C611.2 330.2 611.2 309.9 598.7 297.4L502.7 201.4C490.2 188.9 469.9 188.9 457.4 201.4zM182.7 201.3C170.2 188.8 149.9 188.8 137.4 201.3L41.4 297.3C28.9 309.8 28.9 330.1 41.4 342.6L137.4 438.6C149.9 451.1 170.2 451.1 182.7 438.6C195.2 426.1 195.2 405.8 182.7 393.3L109.3 320L182.6 246.6C195.1 234.1 195.1 213.8 182.6 201.3z"/></svg>
+        </div>
+        <p>Alături de traineri practicieni, descoperi cele mai populare tehnologii din Web Development și vei învăța să creezi aplicații web sau site-uri de la zero, folosind React, JavaScript, HTML, CSS și Bootstrap.
+        Acest curs pentru începători îți poate aduce o dublă certificare: națională, de la Ministerul Educației, și internațională, prin Certiport Information Technology Specialist.</p>
+        <a href="#">Vezi detalii</a>
+      </div>
+
+      <div class="course-card">
+        <h3>Curs Programare Python</h3>
+        <div class="icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M535.8 264.5C528.1 233.6 513.5 210.3 482.4 210.3L442.3 210.3L442.3 257.7C442.3 294.5 411.1 325.5 375.5 325.5L268.7 325.5C239.5 325.5 215.3 350.5 215.3 379.8L215.3 481.6C215.3 510.6 240.5 527.6 268.7 535.9C302.5 545.8 335 547.6 375.5 535.9C402.4 528.1 428.9 512.4 428.9 481.6L428.9 440.9L322.2 440.9L322.2 427.3L482.4 427.3C513.5 427.3 525 405.6 535.8 373.1C547 339.6 546.5 307.4 535.8 264.5zM382.2 508.7C374.6 509.2 367.3 505.5 363.3 499C359.4 492.4 359.4 484.3 363.3 477.7C367.3 471.2 374.6 467.5 382.2 468C389.8 467.5 397.1 471.2 401.1 477.7C405 484.3 405 492.4 401.1 499C397.1 505.5 389.8 509.2 382.2 508.7zM263.8 312.1L370.6 312.1C400.3 312.1 424 287.6 424 257.8L424 155.9C424 126.9 399.6 105.2 370.6 100.3C334.8 94.4 295.9 94.7 263.8 100.4C218.6 108.4 210.4 125.1 210.4 156L210.4 196.7L317.3 196.7L317.3 210.3L170.3 210.3C139.2 210.3 112 229 103.5 264.5C93.7 305.2 93.3 330.6 103.5 373.1C111.1 404.7 129.2 427.3 160.3 427.3L197 427.3L197 378.5C197 343.2 227.5 312.1 263.8 312.1zM257.2 128.7C268.5 128.7 277.6 137.8 277.6 149.1C277.6 160.4 268.5 169.5 257.2 169.5C245.9 169.5 236.8 160.4 236.8 149.1C236.8 137.8 245.9 128.7 257.2 128.7z"/></svg>
+        </div>
+        <p>Acest curs pentru începători îți poate aduce o dublă certificare: națională, de la Ministerul Educației, și internațională, prin Certiport Information Technology Specialist.
+        Este recomandat în special persoanelor interesate să activeze în domenii precum: Web Development, Data Science, Machine Learning, Artificial Intelligence, Automation & Scripting, Cybersecurity, IoT.</p>
+        <a href="#">Vezi detalii</a>
+      </div>
+
+      <div class="course-card">
+        <h3>Curs UI / UX Design</h3>
+        <div class="icon-2">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M64 183.4C44.9 172.4 32 151.7 32 128C32 92.7 60.7 64 96 64C119.7 64 140.4 76.9 151.4 96L488.5 96C499.6 76.9 520.2 64 543.9 64C579.2 64 607.9 92.7 607.9 128C607.9 151.7 595 172.4 575.9 183.4L575.9 456.5C595 467.6 607.9 488.2 607.9 511.9C607.9 547.2 579.2 575.9 543.9 575.9C520.2 575.9 499.5 563 488.5 543.9L151.4 543.9C140.3 563 119.7 575.9 96 575.9C60.7 575.9 32 547.2 32 511.9C32 488.2 44.9 467.5 64 456.5L64 183.4zM512 183.4C502.3 177.8 494.2 169.7 488.6 160L151.4 160C145.8 169.7 137.7 177.8 128 183.4L128 456.5C137.7 462.1 145.8 470.2 151.4 479.9L488.5 479.9C494.1 470.2 502.2 462.1 511.9 456.5L511.9 183.4zM176 240C176 222.3 190.3 208 208 208L320 208C337.7 208 352 222.3 352 240L352 304C352 321.7 337.7 336 320 336L208 336C190.3 336 176 321.7 176 304L176 240zM288 384L320 384C364.2 384 400 348.2 400 304L432 304C449.7 304 464 318.3 464 336L464 400C464 417.7 449.7 432 432 432L320 432C302.3 432 288 417.7 288 400L288 384z"/></svg>
+        </div>
+        <p>În cadrul acestui curs acreditat vei învăța cele mai utilizate instrumente din industrie, precum Figma și Miro. 
+        Participi la sesiuni live-online interactive, primești feedback personalizat, iar la final vei avea propriul portofoliu de proiecte UI/UX, care va servi ca unealtă esențială în obținerea unui job în acest domeniu.
+        Acest curs este esențial pentru orice persoană care dorește să se specializeze în crearea și optimizarea interfețelor și experiențelor utilizator pentru aplicații web și mobile.</p>
+        <a href="#">Vezi detalii</a>
+      </div>
+
+      <div class="course-card">
+        <h3>Curs Programare Java</h3>
+        <div class="icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M405.8 376.9C415.6 370.2 429.2 364.4 429.2 364.4C429.2 364.4 390.5 371.4 352 374.6C304.9 378.5 254.3 379.3 228.9 375.9C168.8 367.9 261.9 345.8 261.9 345.8C261.9 345.8 225.8 343.4 181.3 364.8C128.8 390.2 311.3 401.8 405.8 376.9zM320.4 344.8C301.4 302.1 237.3 264.6 320.4 199C424.1 117.2 370.9 64 370.9 64C392.4 148.5 295.3 174.1 260.2 226.6C236.3 262.5 271.9 301 320.4 344.8zM435 168.6C435.1 168.6 259.8 212.4 343.5 308.8C368.2 337.2 337 362.8 337 362.8C337 362.8 399.7 330.4 370.9 289.9C344 252.1 323.4 233.3 435 168.6zM428.9 439.1C428.4 440.1 427.7 440.9 426.9 441.7C555.2 408 508 322.8 446.7 344.4C443.4 345.6 440.5 347.8 438.5 350.7C442.1 349.4 445.8 348.4 449.5 347.7C480.5 341.2 525 389.2 428.9 439.1zM476 501.4C476 501.4 490.5 513.3 460.1 522.6C402.2 540.1 219.3 545.4 168.5 523.3C150.2 515.4 184.5 504.3 195.3 502C206.5 499.6 213 500 213 500C192.7 485.7 81.7 528.1 156.6 540.2C360.8 573.4 529 525.3 476 501.4zM252.5 460C173.8 482 300.4 527.4 400.6 484.5C390.8 480.7 381.4 476.1 372.4 470.7C327.7 479.2 307 479.8 266.4 475.2C232.9 471.4 252.5 460 252.5 460zM432.3 557.2C353.6 572 256.5 570.3 199 560.8C199 560.7 210.8 570.5 271.4 574.4C363.6 580.3 505.2 571.1 508.5 527.5C508.5 527.5 502.1 544 432.3 557.2zM388.7 417C329.5 428.4 295.2 428.1 251.9 423.6C218.4 420.1 240.3 403.9 240.3 403.9C153.5 432.7 288.5 465.3 409.8 429.8C402 427 394.8 422.7 388.7 417z"/></svg>
+        </div>
+        <p>Acest curs pentru începători îți poate oferi dublă certificare: națională, de la Ministerul Educației, și internațională, prin Certiport Information Technology Specialist.Java este un limbaj de programare versatil și robust, indispensabil pentru cei care aspiră la cariere în sectoare tehnologice de vârf. Este utilizat preponderent în dezvoltarea de aplicații enterprise, dezvoltarea de aplicații mobile și desktop, sectorul financiar-bancar, dezvoltarea de software pentru dispozitive înglobate și IoT.</p>
+        <a href="#">Vezi detalii</a>
+      </div>
+
+      <div class="course-card">
+        <h3>Curs Cybersecurity</h3>
+        <div class="icon-2">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M320 64C324.6 64 329.2 65 333.4 66.9L521.8 146.8C543.8 156.1 560.2 177.8 560.1 204C559.6 303.2 518.8 484.7 346.5 567.2C329.8 575.2 310.4 575.2 293.7 567.2C121.3 484.7 80.6 303.2 80.1 204C80 177.8 96.4 156.1 118.4 146.8L306.7 66.9C310.9 65 315.4 64 320 64zM320 130.8L320 508.9C458 442.1 495.1 294.1 496 205.5L320 130.9L320 130.9z"/></svg>
+        </div>
+        <p>Specializează-te într-o nișă în plină ascensiune care va rămâne relevantă pe termen lung. O carieră în Cybersecurity îți va oferi un mediu interesant, dinamic și cu doze periodice de adrenalină, pe lângă oportunități profesionale de invidiat.</p>
+        <a href="#">Vezi detalii</a>
+      </div>
+
+      <div class="course-card">
+        <h3>Curs Programare C++</h3>
+        <div class="icon-2">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M457.1 206.9C394.6 144.4 301.3 144.4 238.8 206.9C176.3 269.4 176.3 370.7 238.8 433.2C301.3 495.7 394.6 495.7 457.1 433.2C469.6 420.7 489.9 420.7 502.4 433.2C514.9 445.7 514.9 466 502.4 478.5C414.9 566 281.1 566 193.6 478.5C106.1 391 106.1 249.2 193.6 161.7C281.1 74.2 414.9 74.2 502.4 161.7C514.9 174.2 514.9 194.5 502.4 207C489.9 219.5 469.6 219.5 457.1 207z"/></svg>
+        </div>
+        <p>Explorează puterea programării în C++ prin lecții hands-on și proiecte reale. Acest curs se desfășoară live-online și este acreditat de Ministerul Educației. Este recomandat în special persoanelor care își doresc să activeze în domenii precum: automotive, gaming, telecomunicații,  software development. Învățarea C++ deschide uși către aceste sectoare dinamic și în continuă expansiune, oferind o fundație solidă pentru o varietate de cariere în tehnologie.</p>
+        <a href="#">Vezi detalii</a>
+      </div>
+
+      <div class="course-card">
+        <h3>Curs DevOps</h3>
+        <div class="icon-2">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M64 160C64 124.7 92.7 96 128 96L512 96C547.3 96 576 124.7 576 160L576 400L512 400L512 160L128 160L128 400L64 400L64 160zM0 467.2C0 456.6 8.6 448 19.2 448L620.8 448C631.4 448 640 456.6 640 467.2C640 509.6 605.6 544 563.2 544L76.8 544C34.4 544 0 509.6 0 467.2zM281 273L250 304L281 335C290.4 344.4 290.4 359.6 281 368.9C271.6 378.2 256.4 378.3 247.1 368.9L199.1 320.9C189.7 311.5 189.7 296.3 199.1 287L247.1 239C256.5 229.6 271.7 229.6 281 239C290.3 248.4 290.4 263.6 281 272.9zM393 239L441 287C450.4 296.4 450.4 311.6 441 320.9L393 368.9C383.6 378.3 368.4 378.3 359.1 368.9C349.8 359.5 349.7 344.3 359.1 335L390.1 304L359.1 273C349.7 263.6 349.7 248.4 359.1 239.1C368.5 229.8 383.7 229.7 393 239.1z"/></svg>
+        </div>
+        <p>Orientează-te spre o carieră high-level, cu o multitudine de oportunități profesionale. Program acreditat de Ministerul Educației.</p>
+        <a href="#">Vezi detalii</a>
+      </div>
+
+       <div class="course-card">
+        <h3>Curs Programare .NET</h3>
+        <div class="icon-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M544 269.8C529.2 279.6 512.2 287.5 494.5 293.8C447.5 310.6 385.8 320 320 320C254.2 320 192.4 310.5 145.5 293.8C127.9 287.5 110.8 279.6 96 269.8L96 352C96 396.2 196.3 432 320 432C443.7 432 544 396.2 544 352L544 269.8zM544 192L544 144C544 99.8 443.7 64 320 64C196.3 64 96 99.8 96 144L96 192C96 236.2 196.3 272 320 272C443.7 272 544 236.2 544 192zM494.5 453.8C447.6 470.5 385.9 480 320 480C254.1 480 192.4 470.5 145.5 453.8C127.9 447.5 110.8 439.6 96 429.8L96 496C96 540.2 196.3 576 320 576C443.7 576 544 540.2 544 496L544 429.8C529.2 439.6 512.2 447.5 494.5 453.8z"/></svg>
+        </div>
+        <p>Dezvoltă-ți cariera cu .NET – framework-ul preferat de companii pentru aplicații robuste și scalabile, susținut puternic de Microsoft. Vei învăța să codezi în C#, un limbaj versatil, prietenos cu începătorii, să utilizezi tehnologii esențiale precum Visual Studio, GitHub și să creezi interfețe grafice cu instrumente cerute în industrie, după cele mai bune practici în dezvoltarea software.</p>
+        <a href="#">Vezi detalii</a>
+      </div>
+    </div>
+  </section>
+
+ 
+  <section class="audience-section">
+    <div class="container">
+        <div class="content">
+    <h2>Cui se adresează cursurile?</h2>
+    <h3>Cursuri IT pentru începători. From zero to hero, în câteva luni de training.</h3>
+    <p>Programele de pregătire IT School sunt pentru tine dacă dorești să-ți schimbi jobul și țintești către o carieră în IT, vrei să adaugi skill-uri noi în bagajul tău de cunoștințe sau vrei să explorezi un domeniu total diferit față de cel în care activezi acum.
+    Oricare este motivația ta, te vom sprijini pe tot parcursul traseului tău de învățare. Cursurile noastre încep de la 0, prin urmare ești pe mâini bune chiar dacă te afli la prima interacțiune cu lumea tehnică.
+    De la înscriere până la angajare, îți vom pune la dispoziție toate instrumentele de care ai nevoie ca tu să reușești: pregătire tehnică alături de specialiști din industrie, consiliere de carieră, certificare națională și internațională și oportunități de angajare.</p>
+    </div>
+    <img src="../img/for-who-image.2610066c.png" alt="IT School">
+    </div>
+  </section>
+
+    <footer>
+      <div class="container">
+          <p>IT School © 2025</p>
+      </div>
+    </footer>
+
+
+</body>
+</html>
